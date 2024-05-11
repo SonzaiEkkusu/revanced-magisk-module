@@ -37,7 +37,6 @@ build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music-Beta]
-app-name = "Music"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 included-patches = "'Add splash animation' 'MaterialYou'"
 patches-source = "inotia00/revanced-patches"
@@ -50,7 +49,6 @@ arch = "both"
 version = "beta"
 
 [YouTube-Beta]
-app-name = "YouTube"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 included-patches = "'Add splash animation' 'MaterialYou'"
 patches-source = "inotia00/revanced-patches"

@@ -6,7 +6,6 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = false
 build-mode = "both"
 excluded-patches = ""
 included-patches = ""
@@ -14,13 +13,20 @@ version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music]
-enabled = false
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "both"
 
+[YouTube-Extended]
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
 [Music-Extended]
-enabled = false
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -30,17 +36,18 @@ build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "both"
 
-[YouTube-Extended]
-enabled = false
-app-name = "YouTube"
+[YouTube]
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
+included-patches = "'Add splash animation' 'MaterialYou'"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+rv-brand = "Beta"
+build-mode = "apk"
+archive-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+version = "19.19.33"
 
-[Music-Beta]
+[Music]
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 included-patches = "'Add splash animation' 'MaterialYou'"
 patches-source = "inotia00/revanced-patches"
@@ -51,14 +58,3 @@ build-mode = "apk"
 archive-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 arch = "both"
 version = "beta"
-
-[YouTube-Beta]
-excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
-included-patches = "'Add splash animation' 'MaterialYou'"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "Beta"
-build-mode = "apk"
-archive-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-version = "19.19.33"

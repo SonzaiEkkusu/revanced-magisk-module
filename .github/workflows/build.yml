@@ -130,7 +130,7 @@ jobs:
           APKS=${APKS#"$NL"}
 
           BODY="$(sed 's/^\* \*\*/↪ \*\*/g; s/^\* `/↪ \*\*/g; s/`/\*/g; s/^\* /\↪/g; s/\*\*/\*/g; s/###//g; s/^- /↪ /g; /^==/d;' ../build.md)"
-          MSG="*New build!*
+          MSG="*New Update!*
 
           ${BODY}
 
@@ -140,6 +140,9 @@ jobs:
 
           APKs:
           ${APKS}
+          
+          Notes:
+          *BETA VERSION IS NOT ALL PATCHED BUT MAIN PATCH IS INCLUDED ( HIDE/REMOVE ADS & BACKGROUND PLAY)*
           "
           echo "'$MSG'"
           MSG=${MSG:0:9450}

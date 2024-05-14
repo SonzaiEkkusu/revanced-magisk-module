@@ -1,4 +1,5 @@
 [TikTok]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok"
 included-patches = "'SIM spoof'"
+arch = "arm-v7a"
 version = "beta"

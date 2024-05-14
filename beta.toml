@@ -23,3 +23,10 @@ rv-brand = "Beta"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 version = "beta"
+
+[TikTok-Beta]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok"
+included-patches = "'SIM spoof'"
+arch = "arm-v7a"
+build-mode = "apk"
+version = "beta"

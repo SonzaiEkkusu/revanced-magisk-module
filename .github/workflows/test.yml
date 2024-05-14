@@ -25,18 +25,8 @@ jobs:
           fetch-depth: 0
           submodules: true
 
-      - name: Update config
-        if: ${{ inputs.from_ci }}
-        run: |
-          if git checkout origin/update build.md; then
-            UPDATE_CFG=$(./build.sh beta.toml --config-update)
-            if [ "$UPDATE_CFG" ]; then
-              echo "$UPDATE_CFG" > beta.toml
-            fi
-          fi
-          
       - name: Build modules/APKs
-        run: ./build.sh test.toml
+        run: ./build.sh testing.toml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: $GITHUB_REPOSITORY

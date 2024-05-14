@@ -1,7 +1,6 @@
 enable-magisk-update = true
 
 [Music-Beta]
-enabled = false
 app-name = "Music"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 patches-source = "inotia00/revanced-patches"
@@ -14,7 +13,6 @@ arch = "both"
 version = "beta"
 
 [YouTube-Beta]
-enabled = false
 app-name = "YouTube"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 patches-source = "inotia00/revanced-patches"

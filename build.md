@@ -1,6 +1,6 @@
 Music-Beta (arm-v7a): 7.01.52  
 Music-Beta (arm64-v8a): 7.01.52  
-YouTube-Beta: 19.19.38  
+YouTube-Beta: 19.20.32  
 TikTok-Beta: 34.5.6  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  

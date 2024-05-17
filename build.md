@@ -1,5 +1,5 @@
-Music-Beta (arm-v7a): 7.01.52  
 Music-Beta (arm64-v8a): 7.01.52  
+Music-Beta (arm-v7a): 7.01.52  
 YouTube-Beta: 19.20.32  
 TikTok-Beta: 34.5.6  
 

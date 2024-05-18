@@ -1,5 +1,22 @@
-[TikTok]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok"
-included-patches = "'SIM spoof'"
-arch = "arm-v7a"
+[Music-Beta]
+app-name = "Music"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "Beta"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+arch = "both"
+version = "beta"
+
+[YouTube-Beta]
+app-name = "YouTube"
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "Beta"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 version = "beta"

@@ -1,12 +1,12 @@
 [Music-Beta]
 app-name = "Music"
-included-patches = "'Certificate spoof' 'Enable minimized playback' 'GmsCore support' 'Hide ads' 'Settings' 'SponsorBlock'"
+included-patches = "'Enable minimized playback' 'Hide ads' 'Settings' 'SponsorBlock'"
 exclusive-patches = true
-patches-source = "anddea/revanced-patches"
+patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "Beta"
-build-mode = "both"
+build-mode = "module"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "arm-v7a"
 version = " 7.01.53"

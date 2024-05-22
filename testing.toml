@@ -1,6 +1,7 @@
 [Music-Beta]
 app-name = "Music"
-excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
+included-patches = "'Certificate spoof' 'Enable minimized playback' 'GmsCore support' 'Hide ads' 'Settings' 'SponsorBlock'"
+exclusive-patches = true
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
@@ -8,4 +9,4 @@ rv-brand = "Beta"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
-version = "auto"
+version = " auto"

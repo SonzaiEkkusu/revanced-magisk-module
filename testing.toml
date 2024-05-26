@@ -7,7 +7,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "Beta"
 build-mode = "module"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
+arch = "arm-v7a"
 version = "beta"
 
 [YouTube-Beta]
@@ -30,7 +30,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "module"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
+arch = "arm-v7a"
 
 [YouTube-Extended]
 app-name = "YouTube"

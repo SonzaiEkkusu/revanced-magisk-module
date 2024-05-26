@@ -22,3 +22,20 @@ rv-brand = "Beta"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 version = "beta"
+
+[Music]
+app-name = "Music"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+arch = "both"
+version = "auto"
+
+[YouTube]
+app-name = "YouTube"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+version = "auto"

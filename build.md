@@ -1,7 +1,7 @@
-Music-Beta (arm64-v8a): 7.03.51  
-Music-Beta (arm-v7a): 7.03.51  
 Music-Extended (arm64-v8a): 7.03.51  
-YouTube-Beta: 19.22.32  
+Music-Beta (arm-v7a): 7.04.51  
+Music-Beta (arm64-v8a): 7.04.51  
+YouTube-Beta: 19.23.33  
 Music-Extended (arm-v7a): 7.03.51  
 YouTube-Extended: 19.20.34  
 

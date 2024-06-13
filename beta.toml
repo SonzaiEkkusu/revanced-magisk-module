@@ -2,7 +2,7 @@ enable-magisk-update = true
 
 [Music-Extended]
 app-name = "Music"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name YouTube Music'"
+excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 patches-source = "SonzaiEkkusu/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
@@ -13,7 +13,7 @@ arch = "both"
 
 [YouTube-Extended]
 app-name = "YouTube"
-excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
 patches-source = "SonzaiEkkusu/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"

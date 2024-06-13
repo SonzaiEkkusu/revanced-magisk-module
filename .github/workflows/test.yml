@@ -26,7 +26,7 @@ jobs:
           submodules: true
 
       - name: Build modules/APKs
-        run: ./build.sh beta.toml
+        run: ./build.sh testing.toml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: $GITHUB_REPOSITORY

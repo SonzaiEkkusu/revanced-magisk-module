@@ -17,8 +17,19 @@ build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "arm64-v8a"
 
+[YouTube-Extended]
+app-name = "YouTube"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "apk"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
 [Music-Extended]
 app-name = "Music"
+excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
@@ -26,15 +37,6 @@ rv-brand = "ReVanced Extended"
 build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "arm64-v8a"
-
-[YouTube-Extended]
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "apk"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Twitter]
 build-mode = "apk"

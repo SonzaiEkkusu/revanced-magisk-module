@@ -1,8 +1,9 @@
+Music (arm64-v8a): 7.16.53  
 Music (arm-v7a): 7.16.53  
 YouTube: 19.16.39  
-Music (arm64-v8a): 7.16.53  
 YouTube-Beta: 19.16.39  
 Music-Beta (arm64-v8a): 7.16.52  
+Music-Beta (arm-v7a): 7.16.52  
 Twitter: 10.60.0-release.0  
 TikTok: 36.5.4  
 

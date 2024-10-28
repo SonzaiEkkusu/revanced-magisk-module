@@ -1,9 +1,11 @@
-YouTube: 19.34.42  
-Music: 7.24.51                     
-Music-Extended: 7.24.51                     
-YouTube-Extended: 19.43.34                     
+YouTube-ReVanced: 19.34.42  
+Music-ReVanced: 7.24.51                     
+YouTube-Beta: 19.34.42  
 Music-Beta: 7.24.51                     
-YouTube-Beta: 19.43.34                     
+Music-Extended: 7.16.53  
+YouTube-Extended: 19.16.39  
+Music-Extended-Beta: 7.24.51                     
+YouTube-Extended-Beta: 19.42.41                     
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  

@@ -1,6 +1,6 @@
 {
-  "version": "v19.47.53 (38)",
-  "versionCode": 38,
-  "zipUrl": "https://github.com/SonzaiEkkusu/revanced-magisk-module/releases/download/38/youtube-revanced-magisk-v19.47.53-all.zip",
+  "version": "v19.47.53 (patches: 5.12.0)",
+  "versionCode": 40,
+  "zipUrl": "https://github.com/SonzaiEkkusu/revanced-magisk-module/releases/download/40/youtube-revanced-magisk-v19.47.53-all.zip",
   "changelog": "https://raw.githubusercontent.com/SonzaiEkkusu/revanced-magisk-module/update/build.md"
 }

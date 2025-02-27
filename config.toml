@@ -14,7 +14,7 @@ rv-brand = "Beta ReVanced"
 build-mode = "apk"
 version = "beta"
 
-[Music-Beta]
+[Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"

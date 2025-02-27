@@ -13,7 +13,7 @@ integrations-source = "anddea/revanced-integrations"
 rv-brand = "Beta ReVanced"
 build-mode = "apk"
 version = "beta"
-excluded-patches = "'Change layout' 'Hide feed components' 'Toolbar components'"
+excluded-patches = "'Change layout' 'Hide feed components' 'Return YouTube Dislike' 'Toolbar components'"
 
 [Music]
 build-mode = "apk"

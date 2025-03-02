@@ -13,7 +13,9 @@ integrations-source = "anddea/revanced-integrations"
 rv-brand = "Beta"
 build-mode = "apk"
 version = "beta"
-excluded-patches = "'Change layout' 'Hide feed components' 'Return YouTube Dislike' 'Toolbar components'"
+included-patches = "'GmsCore support' 'Hide ads' 'Swipe controls'"
+exclusive-patches = true
+# excluded-patches = "'Change layout' 'Hide feed components' 'Return YouTube Dislike' 'Toolbar components'"
 
 [Music]
 build-mode = "apk"

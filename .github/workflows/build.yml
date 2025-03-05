@@ -129,29 +129,12 @@ jobs:
           MODULES=${MODULES#"$NL"}
           APKS=${APKS#"$NL"}
 
-          MSG="UPDATE !!
-          YouTube Premium & YouTube Music Premium
-
-          CARA INSTALL
-          1. Install microG
-          2. Login Google di microG
-          3. Install Youtube Beta / Music Beta
-          4. Buka aplikasi
-          5. Selesai
-
-          *▼ Download Links:*
-          Modules:
+          MSG="*New Update!*
+          *▼ Download ▼*
           ${MODULES}
-
-          APKs:
-          ${APKS}"
-
-          # Kirim gambar terlebih dahulu
-          PHOTO_URL="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJH29wGOmXFb2Zrwp-qWGu-mOHCE4lY7mryKhXl-bfKp8dbA9gnGglhoI&s=10"
-          PHOTO_POST="https://api.telegram.org/bot${TG_TOKEN}/sendPhoto"
-          curl -X POST "$PHOTO_POST" \
-            -d "chat_id=${TG_CHAT}" \
-            -d "photo=${PHOTO_URL}" \
-            -d "caption=${MSG}" \
-            -d "parse_mode=Markdown" \
-            -d "disable_web_page_preview=true"
+          ${APKS}
+          "
+          echo "'$MSG'"
+          MSG=${MSG:0:9450}
+          POST="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
+          curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"

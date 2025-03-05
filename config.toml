@@ -18,6 +18,6 @@ version = "beta"
 [Music]
 build-mode = "apk"
 arch = "both"
-version = "beta"
+version = "8.09.50"
 rv-brand = "Beta"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"

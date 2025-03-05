@@ -130,21 +130,21 @@ jobs:
           APKS=${APKS#"$NL"}
 
           MSG="UPDATE !!
-YouTube Premium & YouTube Music Premium
+          YouTube Premium & YouTube Music Premium
 
-CARA INSTALL
-1. Install microG
-2. Login Google di microG
-3. Install Youtube Beta / Music Beta
-4. Buka aplikasi
-5. Selesai
+          CARA INSTALL
+          1. Install microG
+          2. Login Google di microG
+          3. Install Youtube Beta / Music Beta
+          4. Buka aplikasi
+          5. Selesai
 
-*▼ Download Links:*
-Modules:
-${MODULES}
+          *▼ Download Links:*
+          Modules:
+          ${MODULES}
 
-APKs:
-${APKS}"
+          APKs:
+          ${APKS}"
 
           # Kirim gambar terlebih dahulu
           PHOTO_URL="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJH29wGOmXFb2Zrwp-qWGu-mOHCE4lY7mryKhXl-bfKp8dbA9gnGglhoI&s=10"

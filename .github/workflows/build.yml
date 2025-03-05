@@ -129,10 +129,11 @@ jobs:
           MODULES=${MODULES#"$NL"}
           APKS=${APKS#"$NL"}
 
-          MSG="*New Update!*
-          *▼ Download ▼*
+          MSG="
           ${MODULES}
           ${APKS}
+          [Made with ❤️ by Sonzai X シ](https://t.me/November2k)
+          [Traktir Kopinya Tuan ☕](https://t.me/November2kLab/4)
           "
           echo "'$MSG'"
           MSG=${MSG:0:9450}

@@ -13,11 +13,11 @@ integrations-source = "anddea/revanced-integrations"
 rv-brand = "Beta"
 build-mode = "apk"
 version = "beta"
-excluded-patches = "'Change layout' 'Fullscreen components' 'Hide feed components' 'Overlay buttons' 'Player components' 'SponsorBlock' 'Toolbar components'"
+#excluded-patches = "'Change layout' 'Fullscreen components' 'Hide feed components' 'Overlay buttons' 'Player components' 'SponsorBlock' 'Toolbar components'"
 
 [Music]
 build-mode = "apk"
-arch = "arm64-v8a"
+arch = "both"
 version = "beta"
 rv-brand = "Beta"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"

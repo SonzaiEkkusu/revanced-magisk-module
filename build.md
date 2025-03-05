@@ -1,4 +1,5 @@
-Music (arm-v7a): 8.09.50  
+Music (arm64-v8a): 8.08.53  
+Music (arm-v7a): 8.08.53  
 YouTube: 20.09.37  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  

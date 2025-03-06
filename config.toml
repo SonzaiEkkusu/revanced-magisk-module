@@ -16,7 +16,7 @@ version = "beta"
 #excluded-patches = "'Change layout' 'Fullscreen components' 'Hide feed components' 'Overlay buttons' 'Player components' 'SponsorBlock' 'Toolbar components'"
 
 [Music]
-build-mode = "apk"
+build-mode = "both"
 arch = "both"
 version = "8.08.53"
 rv-brand = "Beta"

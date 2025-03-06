@@ -130,7 +130,9 @@ jobs:
           APKS=${APKS#"$NL"}
 
           MSG="
+          *MODULES ( Root )*
           ${MODULES}
+          *APK ( Non Root )*
           ${APKS}
           [microG - v0.3.1.4.240913.apk](https://t.me/November2kBio/1093)
           [Made with ❤️ by Sonzai X シ](https://t.me/November2k)

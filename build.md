@@ -1,6 +1,5 @@
 Music (arm64-v8a): 8.09.50  
 Music (arm-v7a): 8.09.50  
-YouTube: 20.10.32  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
@@ -8,5 +7,5 @@ Patches: anddea/patches-3.4.0.rvp
 [Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.4.0)
 
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.13.0.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.13.0)  
+Patches: ReVanced/patches-5.14.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.14.0)  

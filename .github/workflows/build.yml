@@ -121,28 +121,40 @@ jobs:
           for OUTPUT in *; do
             DL_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}/${OUTPUT}"
             if [[ $OUTPUT = *.apk ]]; then
-              APKS+="${NL}[${OUTPUT}](${DL_URL})"
+              APKS+="${NL}${OUTPUT}"
             elif [[ $OUTPUT = *.zip ]]; then
-              MODULES+="${NL}[${OUTPUT}](${DL_URL})"
+              MODULES+="${NL}${OUTPUT}"
             fi
           done
           MODULES=${MODULES#"$NL"}
           APKS=${APKS#"$NL"}
 
           MSG="
-          *MODULES ( Root )*
-          ${MODULES}
-          
-          *APK ( Non Root )*
-          ${APKS}
-          [microG - v0.3.1.4.240913.apk](https://t.me/November2kBio/1093)
+          *UPDATE !!*  
+          *YouTube Premium & YouTube Music Premium*  
 
-          *NOTE ( Baca )*
-          Mod Premium ini menggunakan patch revanced dan menggunakan versi YouTube Beta, dan patch utamanya yaitu menghilangkan iklan dan background playback.
-          [Made with ❤️ by Sonzai X シ](https://t.me/November2k)
-          [Traktir Kopinya Tuan ☕](https://t.me/November2kLab/4)
+          *CARA INSTALL*  
+          1. Install microG  
+          2. Login Google di microG  
+          3. Install YouTube Beta / Music Beta  
+          4. Buka aplikasi  
+          5. Selesai  
+
+          *MODULES ( Root )*  
+          ${MODULES}  
+
+          *APK ( Non Root )*  
+          ${APKS}  
+          [microG - v0.3.1.4.240913.apk](https://t.me/November2kBio/1093)  
+
+          *NOTE ( Baca )*  
+          Mod Premium ini menggunakan patch Revanced dan menggunakan versi YouTube Beta, serta patch utamanya yaitu menghilangkan iklan dan background playback.  
+
+          [Made with ❤️ by Sonzai X シ](https://t.me/November2k)  
+          [Traktir Kopinya Tuan ☕](https://t.me/November2kLab/4)  
           "
+
           echo "'$MSG'"
           MSG=${MSG:0:9450}
-          POST="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
-          curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"
+          POST="https://api.telegram.org/bot${TG_TOKEN}/sendPhoto"
+          curl -X POST -F "photo=@9c692d44-d52e-4d52-b1e9-dc51bd7f1b5c_1.png" -F "caption=${MSG}" -F "parse_mode=Markdown" -F "chat_id=${TG_CHAT}" "$POST"

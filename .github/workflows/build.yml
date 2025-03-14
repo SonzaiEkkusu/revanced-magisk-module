@@ -156,5 +156,5 @@ jobs:
 
           echo "'$MSG'"
           MSG=${MSG:0:9450}
-          POST="https://api.telegram.org/bot${TG_TOKEN}/sendPhoto"
-          curl -X POST -F "photo=@9c692d44-d52e-4d52-b1e9-dc51bd7f1b5c_1.png" -F "caption=${MSG}" -F "parse_mode=Markdown" -F "chat_id=${TG_CHAT}" "$POST"
+          POST="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
+          curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=false" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "photo=https://raw.githubusercontent.com/SonzaiEkkusu/revanced-magisk-module/refs/heads/main/9c692d44-d52e-4d52-b1e9-dc51bd7f1b5c_1.png" "https://api.telegram.org/bot${TG_TOKEN}/sendPhoto"

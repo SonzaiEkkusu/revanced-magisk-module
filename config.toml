@@ -7,17 +7,18 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "Beta"
-build-mode = "apk"
+build-mode = "both"
 version = "beta"
 #excluded-patches = "'Change layout' 'Fullscreen components' 'Hide feed components' 'Overlay buttons' 'Player components' 'SponsorBlock' 'Toolbar components'"
 
 [Music]
-build-mode = "apk"
+enabled = true
+build-mode = "both"
 arch = "both"
 version = "beta"
 rv-brand = "Beta"

@@ -118,50 +118,41 @@ jobs:
           NL=$'\n'
           APKS=""
           MODULES=""
-    
           for OUTPUT in *; do
             DL_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}/${OUTPUT}"
             if [[ $OUTPUT = *.apk ]]; then
-              APKS+="${NL}${OUTPUT}"
+              APKS+="${NL}[${OUTPUT}](${DL_URL})"
             elif [[ $OUTPUT = *.zip ]]; then
-              MODULES+="${NL}${OUTPUT}"
+              MODULES+="${NL}[${OUTPUT}](${DL_URL})"
             fi
           done
-    
           MODULES=${MODULES#"$NL"}
           APKS=${APKS#"$NL"}
 
           MSG="
-          *UPDATE \\!\\!*  
-          *YouTube Premium \\& YouTube Music Premium*  
+          *UPDATE !!*
+          *YouTube Premium & YouTube Music Premium*
 
-          *CARA INSTALL*  
-          1\\. Install microG  
-          2\\. Login Google di microG  
-          3\\. Install YouTube Beta / Music Beta  
-          4\\. Buka aplikasi  
-          5\\. Selesai  
+          *CARA INSTALL*
+          1. Install microG
+          2. Login Google di microG
+          3. Install Youtube Beta / Music Beta
+          4. Buka aplikasi
+          5. Selesai
 
-          *MODULES \Root \*  
-          ${MODULES}  
+          *MODULES ( Root )*
+          ${MODULES}
+          
+          *APK ( Non Root )*
+          ${APKS}
+          [microG - v0.3.1.4.240913.apk](https://t.me/November2kBio/1093)
 
-          *APK \Non Root \*  
-          ${APKS}  
-          [microG \\- v0\\.3\\.1\\.4\\.240913\\.apk](https://t\\.me/November2kBio/1093)  
-
-          *NOTE \Baca \*  
-          Mod Premium ini menggunakan patch Revanced dan menggunakan versi YouTube Beta, serta patch utamanya yaitu menghilangkan iklan dan background playback\\.  
-
-          [Made with ❤️ by Sonzai X シ](https://t\\.me/November2k)  
-          [Traktir Kopinya Tuan ☕](https://t\\.me/November2kLab/4)  
+          *NOTE ( Baca )*
+          Mod Premium ini menggunakan patch revanced dan menggunakan versi YouTube Beta, dan patch utamanya yaitu menghilangkan iklan dan background playback.
+          [Made with ❤️ by Sonzai X シ](https://t.me/November2k)
+          [Traktir Kopinya Tuan ☕](https://t.me/November2kLab/4)
           "
-
           echo "'$MSG'"
           MSG=${MSG:0:9450}
-          POST="https://api.telegram.org/bot${TG_TOKEN}/sendPhoto"
-
-          curl -s -X POST "$POST" -d "chat_id=${TG_CHAT}" \
-            -d "photo=https://raw.githubusercontent.com/SonzaiEkkusu/revanced-magisk-module/refs/heads/main/9c692d44-d52e-4d52-b1e9-dc51bd7f1b5c_1.png" \
-            -d "caption=${MSG}" \
-            -d "parse_mode=MarkdownV2" \
-            -d "disable_web_page_preview=true"
+          POST="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
+          curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"

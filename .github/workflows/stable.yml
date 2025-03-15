@@ -1,4 +1,4 @@
-name: Build Modules
+name: Build Stable
 on:
   workflow_call:
     inputs:

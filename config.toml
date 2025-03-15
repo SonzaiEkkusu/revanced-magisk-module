@@ -12,11 +12,14 @@ patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "Beta"
 version = "beta"
+build-mode = "apk"
 included-patches = "'Disable QUIC protocol' 'Disable haptic feedback' 'Force player buttons background' 'GmsCore support' 'Hide ads' 'Hook YouTube Music actions' 'Miniplayer' 'Remove background playback restrictions' 'Swipe controls'"
 exclusive-patches = true
 
 [Music]
+enable = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "Beta"
+build-mode = "both"

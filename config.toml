@@ -8,17 +8,17 @@ parallel-jobs = 1
 
 [YouTube]
 enabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
 rv-brand = "Beta"
 build-mode = "both"
 version = "beta"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 #excluded-patches = "'Change layout' 'Fullscreen components' 'Hide feed components' 'Overlay buttons' 'Player components' 'SponsorBlock' 'Toolbar components'"
 
 [Music]
-enabled = true
+enabled = false
 build-mode = "both"
+patches-source = "inotia00/revanced-patches"
 arch = "both"
 version = "beta"
 rv-brand = "Beta"

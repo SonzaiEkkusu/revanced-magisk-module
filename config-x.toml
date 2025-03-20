@@ -13,6 +13,7 @@ integrations-source = "inotia00/revanced-integrations"
 rv-brand = "X"
 build-mode = "both"
 version = "beta"
+arch = "arm64-v8a"
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
@@ -21,3 +22,4 @@ integrations-source = "inotia00/revanced-integrations"
 rv-brand = "X"
 build-mode = "both"
 version = "beta"
+arch = "arm64-v8a"

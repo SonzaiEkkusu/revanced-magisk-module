@@ -24,7 +24,7 @@ build-mode = "apk"
 version = "latest"
 arch = "arm64-v8a"
 
-[YouTube]
+[YouTube-E]
 enabled = true
 build-mode = "both"
 module-prop-name = "youtube-E85"
@@ -32,12 +32,12 @@ patches-source = "E85Addict/revanced-patches"
 excluded-patches = ""
 included-patches = ""
 patcher-args = ""
-version = "auto"
+version = "beta"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[Music]
+[Music-E]
 enabled = true
 build-mode = "both"
 module-prop-name = "music-E85"

@@ -8,8 +8,8 @@ parallel-jobs = 1
 
 [Youtube]
 app-name = "Youtube"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+patches-source = "anddea/revanced-patches"
+cli-source = "anddea/revanced-cli"
 rv-brand = "ReVanced Beta"
 build-mode = "apk"
 version = "beta"

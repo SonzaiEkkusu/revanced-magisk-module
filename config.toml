@@ -9,7 +9,6 @@ parallel-jobs = 1
 [Youtube]
 app-name = "Youtube"
 patches-source = "anddea/revanced-patches"
-cli-source = "anddea/revanced-cli"
 rv-brand = "ReVanced Beta"
 build-mode = "apk"
 version = "beta"

@@ -8,7 +8,6 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "apk"
-included-patches = "'Hide ads'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 version = "auto"
 exclusive-patches = true
